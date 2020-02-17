@@ -1,0 +1,9 @@
+language: node_js
+node_js: 
+  - stable
+deploy: 
+  provider: heroku
+  app: api-noejs
+  api_key: 
+    secure: 5a3755b9-fcfe-47ef-8902-4a5a1e03ac50
+  
